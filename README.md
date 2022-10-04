@@ -1,6 +1,16 @@
 # cosmosdb-demo
 Must have an Azure account
 
+Create a appsettings.json file if not exists
+and add the cosmos db settings
+
+```
+{
+    "accountEndpoint": "https://xxx.documents.azure.com:443/",
+    "authKeyOrResourceToken": "xx"
+}
+```
+
 # vscode debug config
 **tasks.json**
 ```
